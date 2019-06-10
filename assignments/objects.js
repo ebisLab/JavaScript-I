@@ -74,7 +74,7 @@ console.log(antonietta.gender)
 
 
 kennan.speak = function () {
-  return "Hello, my name is " + this.name + "!" ;
+  return `Hello, my name is ${this.name} !` ;
 };
 console.log(kennan.speak());
 
@@ -122,18 +122,18 @@ console.log(parent.child.grandchild.name, parent.child.grandchild.age);
 
 // Have the parent speak
 parent.speak = function () {
-  return "Hello, my name is " + this.name + "!" ;
+  return `Hello, my name is ${this.name} !` ;
 };
 console.log(parent.speak());
 
 // Have the child speak
 parent.child.speak = function () {
-  return "Hello, my name is " + this.name + "!" ;
+  return `Hello, my name is ${this.name}!` ;
 };
 console.log(parent.child.speak());
 
 // Have the grandchild speak
 parent.child.grandchild.speak = function () {
-  return "Hello, my name is " + this.name + "!" ;
+  return `Hello, my name is ${this.name} !` ;
 };
 console.log(parent.child.grandchild.speak());
