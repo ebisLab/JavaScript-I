@@ -85,6 +85,7 @@ antonietta.multiplyNums = function (a,b) {
 };
 
 
+
 console.log(antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
@@ -96,13 +97,28 @@ console.log(antonietta.multiplyNums(3,4));
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {}
+const parent = {
+  "age": 70,
+  "name": "Susan", 
+  "child": {
+    "age": 50,
+  "name": "George",
+  "grandchild": {
+    "age": 30,
+  "name": "Sam", 
+  }
+  }
+  }
 
 // Log the parent object's name
 
+console.log(parent.name);
+
 // Log the child's age
+console.log(parent.child.age);
 
 // Log the name and age of the grandchild
+console.log(parent.child.grandchild.name, parent.child.grandchild.age);
 
 // Have the parent speak
 
