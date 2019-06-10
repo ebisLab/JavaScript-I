@@ -11,13 +11,13 @@
 * :white_check_mark: Clone your OWN version of the repository (Not Lambda's by mistake!).
 * :white_check_mark: Create a new branch: git checkout -b `<firstName-lastName>`.
 * :white_check_mark: Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* :white_check_mark: Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* :white_check_mark: Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* :white_check_mark: Add your project manager as a reviewer on the pull-request
+* :white_check_mark: Your project manager will count the project as complete by merging the branch back into master.
 
 ## Assignment Description
 
@@ -46,7 +46,7 @@ The [arrays.js](assignments/arrays.js) assignment takes us through a large data 
 
 ### Arrow Function Syntax
 
-* [ ] Arrow Function Syntax - [Check out this awesome guide for ES6 arrow syntax](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26). You will see more and more arrow functions as you progress deeper into JavaScript. Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax.  
+* :white_check_mark: Arrow Function Syntax - [Check out this awesome guide for ES6 arrow syntax](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26). You will see more and more arrow functions as you progress deeper into JavaScript. Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax.  
 
 ### Stretch
 
