@@ -84,7 +84,7 @@ let carModels = [];
 for (let i = 0; i < inventory.length; i++){
     carModels.push(inventory[i].car_model)
 }
-console.log(carModels)
+console.log(carModels.sort())
 
 //------Stretch Challenge------//
 //inventory.map(car=>car.car_model) //itirates through array and performs functions on each of the values. 
